@@ -15,14 +15,13 @@ On the Actions tab, I enabled the "Show Pop-Up" option for the Coral Reef Bleach
 
 Finally, I added an indicator element to the top left corner of the map to display dynamic summary statistics based on attribute fields in the dashboard data. This indicator reported the number of virtual stations indicating that the coral reef was at risk of bleaching. Again, I selected the Coral Reef Bleaching web map from the Virtual Stations layer of NOAA Coral Reef Watch (CRW). In the Data Options pane, I built an expression filter stating _Alert Level Greater Than Or Equal 3_ to show the number of stations with a Level 1 or 2 alert. To provide context, I included the total count of virtual stations. In the Reference section, I chose "Statistic" for the Reference type. In the Indicator Options pane, I typed "Coral reefs at risk of bleaching" out of the total number of stations. Lastly, I configured the actions to ensure the different elements of the dashboard could interact with each other.
 
-## Optimizations
-*(optional)*
-
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
-
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *wow I actually did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+I discovered how to source web maps from ArcGIS Online into ArcGIS Dashboards to create dynamic and interactive maps. By isolating specific layers, I ensured they were prominently displayed on the dashboard I was creating. Utilizing data points from these layers allowed the pop-ups to convey meaningful information, enhancing the viewing experience and inspiring people to take action. 
+
+With a variety of customization options at my disposal, I could design a stylish and personalized layout on Dashboards. I was thrilled by the process and amazed at how even small actions could culminate in a tool that could help many people and drive societal change. The versatility of GIS continuously astonishes me, given its straightforward premise of creating maps for others to use.
+
+Witnessing the interactivity between different apps on ArcGIS coming together to create fantastic products was both fascinating and gratifying. It’s incredible to see how these tools can seamlessly integrate to produce something impactful and beneficial.
 
 ## Repositories
 **GIS Climate Action Repository:** https://github.com/T3ch12et/GIS-Data-Science-Portfolio/tree/main/ESRI-MOOC-GIS-for-Climate-Action <br>
