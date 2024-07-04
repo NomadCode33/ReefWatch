@@ -7,7 +7,9 @@ An interactive dashboard displaying coral reef pollution and health at local, re
 
 **Tech used:** ArcGIS Online, ArcGIS Dashboards
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+I first went on ArcGIS Online to search for the NOAA Coral Reef Watch data. I opened it in Map Viewer to prepare the web map for the dashboard and I examined all the layers and features. I saw the attribute table showing Degree Heating Weeks and Alert Level which is the crucial information central to the dashboard I'll be making. I clicked the Basemap button and slected the Human Geography Dark Map and zoomed the map in to fill the map view, I saved the map and filled in the appropariate information. I created a new Dashboard and chose the Dark, while doing this I changed the header to display the title of the dashboard.
+
+Next up was adding list elements to show the monitoring status at each virtual station (feature), which is sorted with the highest accumulated heat stress at the very top by clicking the Add Element button and choosing List. I put in on the left side of the dashboard and linked the layers from Coral Reef Bleaching web map I created and expanded the NOAA Coral Reef Watch (CRW) Virtual Stations layer. I sorted the Degree Heating Weeks, which reprsents accumulated heat stress, into descending order and updated the text from that list to dynamically show the monitoring status at each virtual station. After that, on the Actions tab, I clciked the Show Pop-Up and turned on the Coral Reef Bleaching option to show the pop-ups whenever a location is selected.
 
 ## Optimizations
 *(optional)*
