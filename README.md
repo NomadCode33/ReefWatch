@@ -1,4 +1,4 @@
-# Coral-Reef-Dashboard
+# Coral Reef Dashboard
 An interactive dashboard displaying coral reef pollution and health at local, regional, and global scales.
 
 <img alt = "Coral Reef Dashboard GIF" img src="./Coral Reef Bleaching Dashboard_EmekaEmeche (1).gif"/>
